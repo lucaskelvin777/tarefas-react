@@ -1,0 +1,14 @@
+.bloco-projeto{
+  margin:5px 10px;
+  border: 0.5px solid #ffffffdd;
+  padding: 20px;
+  border-radius: 4px;
+  cursor:pointer;
+  transition:400ms
+}
+.bloco-projeto:hover{
+  background-color: rgb(138, 96, 96);
+}
+.novo-projeto{
+  font-size: 24px;
+}

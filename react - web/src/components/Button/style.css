@@ -1,0 +1,22 @@
+.button {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 70%;
+}
+
+.button{
+  padding: 5px 20px;
+  color: #fff;
+  background-color: rgb(138, 96, 96);
+  border-radius: 4px;
+  height: 40px;
+  transition: 400ms;
+}
+.button:hover{
+  background-color: rgb(114, 74, 74);
+  cursor:pointer
+}

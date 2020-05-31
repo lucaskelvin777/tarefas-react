@@ -1,0 +1,48 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 30px;
+  background-color: rgb(138, 96, 96);
+}
+
+.dropdown {
+  max-width: 100px;
+  position: absolute;
+  background-color: #f2f2f2;
+  color:#000;
+  padding:0px 20px;
+  min-width: 100px;
+}
+ul{
+  list-style: none;
+  padding:0
+}
+ul li {
+  padding:0
+}
+.dropdown ul:hover {
+
+  text-decoration: underline;
+  cursor:pointer;
+}
+.brand{
+  color:#fff;
+  text-decoration: none;
+}
+.maisOpcoes{
+  cursor:pointer;
+}
+.alinharDireitaMenu {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+.esconder {
+  display: none;
+}
+
+.mostrar {
+  display: block;
+}

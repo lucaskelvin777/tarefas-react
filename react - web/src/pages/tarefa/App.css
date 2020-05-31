@@ -1,0 +1,93 @@
+
+.bloco-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.bloco {
+  padding: 20px;
+  background-color: rgb(77, 71, 71);
+  margin-left: 5px;
+  border-radius: 4px;
+  min-width: 300px;
+  margin-top:5px
+}
+
+.item {
+  background-color: rgb(138, 96, 96);
+  padding: 1px 20px;
+  color: #fff;
+  margin: 10px 0px;
+}
+
+.dragzone {
+  min-height: 200px;
+  background-color: '#3498db';
+  transition: 700ms;
+}
+
+.background-in-zone {
+  background-color: rgb(91, 180, 91) !important;
+}
+
+.input {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.input {
+  border: 0.5px solid rgb(138, 96, 96);
+  padding: 5px 4px;
+  margin-bottom: 5px;
+  color: #fff;
+  width: 100%;
+}
+
+.btn {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 70%;
+}
+
+.btn {
+  padding: 5px 20px;
+  color: #fff;
+  background-color: rgb(138, 96, 96);
+  border-radius: 4px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.container-2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+}
+
+.formulario{
+  width: 600px;
+}
+@media only screen and (max-width: 800px) {
+  .formulario{
+    max-width: 300px;
+  }
+}
